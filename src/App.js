@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./components/Navbar";
-import Chat from "./components/chat";
+import Chat from "./components/Chat";
 // import { auth } from "./firebase";
 
 const style = {

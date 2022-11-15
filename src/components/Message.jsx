@@ -6,12 +6,13 @@ const style = {
   sent: `bg-[#395dff] text-white flex-row-reverse text-end float-right`,
   received: ` bg-[#e5e5ea] text-black float-left rounded-br-full`,
 };
-const Message = () => {
+const Message = ({ message }) => {
+  console.log(message, "klll");
   return (
     <div>
       <div className={style.message}>
-        <p className={style.name}> Zeynep</p>
-        <p> ım am learning react</p>
+        <p className={style.name}>ZEYNEP </p>
+        <p> {message.text}</p>
       </div>
     </div>
   );
