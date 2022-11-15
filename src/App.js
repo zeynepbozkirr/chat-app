@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "./components/Navbar";
+import Chat from "./components/chat";
 // import { auth } from "./firebase";
 
 const style = {
@@ -12,6 +13,7 @@ function App() {
     <div className={style.container}>
       <section className={style.sectionContainer}>
         <Navbar />
+        <Chat />
       </section>
     </div>
   );
